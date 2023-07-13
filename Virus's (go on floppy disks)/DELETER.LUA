@@ -1,7 +1,6 @@
 fs.delete("startup.lua")
 fs.copy("Disk/DELETER.lua", "startup.lua")
 local cycle = 0
-
 while true do
  for y = 1, 10 do
   if cycle > 9 then
