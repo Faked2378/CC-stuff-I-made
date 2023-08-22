@@ -1,0 +1,11 @@
+local diskDrive = peripheral.wrap("bottom")  -- Use the correct side where the disk drive is connected
+local desiredDiskName = "Wopiyfhysffghqwwwwwwfga"
+local RLOCATION = peripheral.wrap("right")
+
+local itemInfo = diskDrive.getItemInSlot(1)  -- Use 'diskDrive' instead of 'Drive'
+
+if itemInfo and itemInfo.display_name == desiredDiskName then
+    shell.run("redstone", "set", RLOCATION, "15")
+else
+    shell.run("redstone", "set", RLOCATION, "0")
+end
