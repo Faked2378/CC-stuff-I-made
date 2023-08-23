@@ -48,7 +48,7 @@ local function mainMenu()
             elseif selectedItem == 2 then
                 appInst("shooter")
             elseif selectedItem == 3 then
-                appInst("Higher Or Lower")
+                appInst("HOL")
             end
         end
       
