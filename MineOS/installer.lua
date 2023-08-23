@@ -37,6 +37,8 @@ while true do
 		if sel == "graph" then
 			term.setCursorPos(1,5)
 			print("graphical selected")
+			os.sleep(2)
+			term.clear()
 			local graphDIR = "https://raw.githubusercontent.com/Faked2378/CC-stuff-I-made/main/MineOS/1-0/graphic/installerG.lua"
 			shell.run("wget", "run", graphDIR)
 		end
