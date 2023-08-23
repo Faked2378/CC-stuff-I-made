@@ -21,16 +21,16 @@ while true do
     end
     if sel == "graph" then
         term.setCursorPos(1,2)
-        print("--> graphical")
+        print("    graphical")
         term.setCursorPos(1,3)
-        print("    terminal")
+        print("--> terminal")
         term.setCursorPos(0,0)
     end
     if sel == "term" then
         term.setCursorPos(1,2)
-        print("    graphical")
+        print("--> graphical")
         term.setCursorPos(1,3)
-        print("--> terminal")
+        print("    terminal")
         term.setCursorPos(0,0)
 	end
 	if key == keys.enter then
