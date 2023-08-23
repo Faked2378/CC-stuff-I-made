@@ -64,7 +64,7 @@ term.clear()
 term.setBackgroundColor(colors.black)
 term.setCursorPos(10, 5)
 term.setTextColor(colors.white)
-print("MineOS")
+print("Appstore")
 
 mainMenu()
 
