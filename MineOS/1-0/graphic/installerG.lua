@@ -4,6 +4,7 @@ local uninDIR = "https://raw.githubusercontent.com/Faked2378/CC-stuff-I-made/mai
 fs.delete("mineOS")
 -- Download and execute the menu script
 if shell.run("wget" "https://raw.githubusercontent.com/Faked2378/CC-stuff-I-made/main/MineOS/1-0/graphic/appstore.lua", "mineOS/appstore") then
+  print("App store downloaded successfully (25% done)")
   -- Download and execute the settings script
   if shell.run("pastebin", "get", settingsCode, "mineOS/settings") then
     print("Settings downloaded successfully (40% done)")
