@@ -1,7 +1,7 @@
 local menuCode = "EMPxvvEZ"
 local settingsCode = "uReswmYn"
 local uninDIR = "https://raw.githubusercontent.com/Faked2378/CC-stuff-I-made/main/MineOS/1-0/graphic/uninst.lua"
-
+fs.delete("mineOS")
 -- Download and execute the menu script
 if shell.run("pastebin", "get", menuCode, "mineOS/menu") then
   print("Menu downloaded successfully (25% done)")
