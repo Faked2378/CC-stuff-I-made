@@ -1,1 +1,1 @@
-global sel
+global sel = "term"
