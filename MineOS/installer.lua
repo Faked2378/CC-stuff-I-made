@@ -19,14 +19,14 @@ while true do
             sel = "graph"
         end
     end
-    if sel == "term" then
+    if sel == "graph" then
         term.setCursorPos(1,2)
         print("--> graphical")
         term.setCursorPos(1,3)
         print("    terminal")
         term.setCursorPos(0,0)
     end
-    if sel == "graph" then
+    if sel == "term" then
         term.setCursorPos(1,2)
         print("    graphical")
         term.setCursorPos(1,3)
