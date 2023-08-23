@@ -1,6 +1,7 @@
 term.clear()
 term.setCursorPos(1,1)
 print("deleting files...")
+fs.delete("startup.lua")
 os.sleep(2)
 term.clear()
 term.setCursorPos(1,1)
