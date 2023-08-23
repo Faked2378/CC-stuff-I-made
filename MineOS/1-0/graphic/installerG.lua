@@ -15,9 +15,12 @@ if shell.run("pastebin", "get", menuCode, "mineOS/menu") then
       print("Uninstall script downloaded successfully (90% done)")
       
       print("Performing final touches")
+      
       os.sleep(7)
       term.clear()
       print("Installation done")
+      os.sleep(3)
+      term.clear()
     else
       print("Failed to download uninstall script")
     end
