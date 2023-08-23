@@ -1,5 +1,3 @@
--- Main Menu for Custom OS
-
 local function drawButton(x, y, label, selected)
   term.setCursorPos(x, y)
   
@@ -58,15 +56,6 @@ local function mainMenu()
     drawButton(10, 12, "Uninstall", selectedItem == 3)
     
     local event, key = os.pullEvent("key")
-    local success, errorMessage = pcall(function()
-        print(undefinedVariable)
-    end)
-    if not success then
-      print("An error occurred: " .. errorMessage)
-      os.sleep(2)  -- Add a delay for user to read the error message
-      os.shutdown()
-    end
-
     
     if key == keys.w and selectedItem > 1 then
       selectedItem = selectedItem - 1
@@ -95,3 +84,12 @@ term.setTextColor(colors.white)
 print("MineOS")
 
 mainMenu()
+
+local success, errorMessage = pcall(function()
+  print(undefinedVariable)
+  end)
+if not success then
+  print("An error occurred: " .. errorMessage)
+  os.sleep(2)  -- Add a delay for user to read the error message
+  os.shutdown()
+end
