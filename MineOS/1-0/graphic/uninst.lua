@@ -8,4 +8,4 @@ print("goodbye...")
 os.sleep(1.8)
 term.clear()
 fs.delete("mineOS")
-os.shutdown
+os.shutdown()
