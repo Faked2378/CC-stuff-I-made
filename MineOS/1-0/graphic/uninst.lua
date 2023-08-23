@@ -1,1 +1,11 @@
-
+term.clear()
+term.setCursorPos(1,1)
+print("deleting files...")
+os.sleep(2)
+term.clear()
+term.setCursorPos(1,1)
+print("goodbye...")
+os.sleep(1.8)
+term.clear()
+fs.delete("mineOS")
+os.shutdown
