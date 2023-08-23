@@ -6,6 +6,7 @@ print("    graphical")
 term.setCursorPos(1,3)
 print("--> terminal")
 term.setCursorPos(0,0)
+local graphDIR = "https://raw.githubusercontent.com/Faked2378/CC-stuff-I-made/main/MineOS/1-0/graphic/installerG.lua"
 while true do
     local event, key = os.pullEvent("key")
     if key == keys.up then
@@ -36,6 +37,7 @@ while true do
 		if sel == "graph" then
 			term.setCursorPos(1,5)
 			print("graphical selected")
+			shell.run("wget", "run", graphDIR)
 		end
 		if sel == "term" then
 			term.setCursorPos(1,5)
