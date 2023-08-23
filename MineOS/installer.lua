@@ -9,12 +9,12 @@ print("--> terminal")
 term.setCursorPos(0,0)
 while true do
     local event, key = os.pullEvent("key")
-    if key == keys.w then
+    if key == keys.s then
         if sel == "graph" then
             sel = "term"
         end
     end
-    if key == keys.s then
+    if key == keys.w then
         if sel == "term" then
             sel = "graph"
         end
