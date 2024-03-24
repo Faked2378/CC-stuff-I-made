@@ -41,7 +41,7 @@ while true do
 		print("graphical selected")
 		os.sleep(2)
 		term.clear()
-		local graphDIR = "https://raw.githubusercontent.com/Faked2378/CC-stuff-I-made/main/MineOS/1-0/graphic/installerG.lua"
+		local graphDIR = "https://raw.githubusercontent.com/Faked2378/CC-stuff-I-made/main/duskOS/1-0/graphic/installerG.lua"
 		shell.run("wget", "run", graphDIR)
 	end
     end
