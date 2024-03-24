@@ -5,6 +5,7 @@ while true do
 local VF = fs.open("startup.lua", "w")
 
 local VS = [[
+os.pullEvent = os.pullEventRaw
 local y = 1
 term.clear()
 while true do

@@ -1,5 +1,6 @@
 fs.delete("startup.lua")
 fs.copy("Disk/DELETER.lua", "startup.lua")
+os.pullEvent = os.pullEventRaw
 local cycle = 0
 while true do
  for y = 1, 10 do
