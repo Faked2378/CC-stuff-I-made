@@ -1,24 +1,24 @@
-term.clear()
-term.setCursorPos(6,1)
-print("Appstore")
+--term.clear()
+--term.setCursorPos(6,1)
+--print("Appstore")
 
-global function appInstall(app)
+--global function appInstall(app)
 
-local function drawButton(x, y, label, selected)
-  term.setCursorPos(x, y)
+--local function drawButton(x, y, label, selected)
+  --term.setCursorPos(x, y)
   
-  if selected then
-    term.setBackgroundColor(colors.blue)
-    term.setTextColor(colors.white)
-  else
-    term.setBackgroundColor(colors.gray)
-    term.setTextColor(colors.black)
-  end
+  --if selected then
+    --term.setBackgroundColor(colors.blue)
+    --term.setTextColor(colors.white)
+  --else
+    --term.setBackgroundColor(colors.gray)
+    --term.setTextColor(colors.black)
+  --end
   
-  term.write(label)
-  term.setBackgroundColor(colors.black)
-  term.setTextColor(colors.white)
-end
+  --term.write(label)
+  --term.setBackgroundColor(colors.black)
+  --term.setTextColor(colors.white)
+--end
 
 local function clearScreen()
   term.setBackgroundColor(colors.black)
