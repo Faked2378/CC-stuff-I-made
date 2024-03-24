@@ -1,5 +1,9 @@
-1. put all of these on a floppy disk (use "adder.lua")
-2. get access to the computer
-3. activate any one of the viruses
-4. deactivate the computer
-5. DONE
+1. insert floppy disk
+2. c&p: https://raw.githubusercontent.com/Faked2378/CC-stuff-I-made/main/Virus's%20(go%20on%20floppy%20disks)/adder.lua
+3. run adder
+5. remove floppy disk
+6. get access to the computer
+7. insert floppy disk
+8. run any one of the viruses
+9. deactivate the computer
+10. DONE
